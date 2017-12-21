@@ -1,0 +1,296 @@
+*{margin:0;padding:0;font-family:"微软雅黑",Microsoft YaHei,Arial, Helvetica, sans-serif, "宋体";font-size:12px;list-style:none;font-weight: normal;}
+.livehall_page_body{margin:0 auto;padding-top:74px;background:#f2f2f2;}
+a{ text-decoration:none;}
+img{ border:0; vertical-align:middle;}
+.hide{ display:none;}
+.clearfix:before,.clearfix:after{content:" ";display:table}
+.clearfix:after{clear: both}
+.clearfix{*zoom:1}
+ul,li{ list-style:none;}
+/*头部*/
+.liveHall_head{height:74px;left:0;top:0;z-index:100;width: 100%;}
+.liveHall_head_nei{height:73px;border-bottom:1px solid #e4e4e4;background:rgba(255,255,255,.9);position: relative;}
+.liveHall_logo{width: 147px;height: 73px;position:absolute;left:0;top:0;background: url("../../../images/liveHall/logo.png") 12px 18px no-repeat;}
+.liveHall_head_contain_wai{padding:0 150px;}
+.liveHall_head_contain{width:1045px;margin:0 auto;height: 73px;}
+.liveHall_head_left{width:610px;float:left;}
+.liveHall_head_ul{float:left;height: 73px;}
+.liveHall_head_li{float:left;color:#333;font-size:18px;line-height:73px;margin-right:37px;cursor: pointer;}
+.liveHall_head_li a{float:left;color:#333;font-size:18px;line-height:73px;cursor: pointer;}
+.liveHall_head_li:hover,.liveHall_head_li.on{color:#ff7747;}
+.liveHall_head_li a:hover,.liveHall_head_li.on{color:#ff7747;}
+
+/*common_nav*/
+.common_nav{width:610px;float:left;}
+.common_nav ul{float:left;height: 73px;}
+.common_nav li{float:left;color:#333;font-size:18px;line-height:73px;margin-right:37px;cursor: pointer;}
+.common_nav:hover,.liveHall_head_li.on{color:#ff7747;}
+
+/*登录注册*/
+.livehall_login_div{z-index:999;}
+.livehall_layer{width:100%;height:100%;background:#000;opacity:.5;filter:alpha(opacity=50);position:fixed;top:0;right:0;bottom:0;left:0;z-index:999}
+.livehall_login_box{width:698px;/*height:280px;*/margin:-200px 0 0 -369px;padding:10px 0 40px 40px;background:#fff;overflow: hidden;position:fixed;left:50%;top:50%;z-index:999;}
+.livehall_login_close,.livehall_tuichu_close,.register_close{display:block;width:44px;height:38px;background:url(../../../images/liveHall/icon1.png)no-repeat right -147px;position:absolute;top:0;right:0;cursor:pointer}
+.livehall_login_close:hover,.livehall_tuichu_close:hover,.register_close:hover{background-position:right -189px;}
+.livehall_login_left{float:left;width:308px;margin-top:26px;padding-top:4px;padding-right:50px;border-right:1px solid #eee;}
+.livehall_login_left_top{height:34px;font-size:20px;color:#373737;}
+.livehall_login_left_top span{font-size:20px;color:#ff7747;}
+.livehall_login_input_div{width:308px;height:46px;margin:0 0 20px 0;overflow:hidden;position:relative}
+.livehall_login_input_div input{padding-left:10px;line-height:44px;font-size:14px;color:#7c7c7c;border:1px solid #dcdcdc;outline:none}
+.livehall_login_input_div input.on{border:1px solid #5b9dde;}
+.livehall_login_phone_num{width:308px;height:44px;}
+.livehall_login_captcha{width:166px;height:44px;}
+.livehall_login_captcha_btn1{float:right;display:block;width:118px;height:44px;line-height:44px;font-size:14px;color:#b0b0b0;text-align:center;border:1px solid #dcdcdc;background:#e9e9e9;cursor:pointer;}
+.livehall_login_captcha_btn2{float:right;display:block;width:118px;height:44px;line-height:44px;font-size:14px;color:#57c446;text-align:center;border:1px solid #dcdcdc;background:#d5f1cf;cursor:pointer;}
+.livehall_login_yanzheng{height:44px;}
+.livehall_login_input_div .success{color:#fff;background:#7ad97a;}
+.livehall_login_button1{width:308px;height:46px;line-height:46px;font-size:18px;color:#fff;text-align:center;background:rgba(255,119,71,.5);border-radius:4px;behavior:url(../../js/pie/PIE.htc);cursor:pointer;margin:10px 0;}
+.livehall_login_button2{width:308px;height:46px;line-height:46px;font-size:18px;color:#fff;text-align:center;background:rgba(255,119,71,.8);border-radius:4px;behavior:url(../../js/pie/PIE.htc);cursor:pointer;margin:10px 0;}
+.livehall_login_landing input{vertical-align:middle;background:#ff7747;}
+.livehall_login_landing span{font-size:14px;color:#b0b0b0;}
+.login_registration_verification_code{height:24px;line-height: 16px;color:#585858;}
+.login_registration_login_yanzheng{height:36px;}
+.login_registration_log_find_help{margin-left: 142px;line-height:12px;color: #757575;}
+.login_registration_log_find_help a{color:#ff7747;}
+.livehall_login_members{color:#585858;}
+
+/*忘记密码*/
+.livehall_login_password{overflow:hidden;}
+.livehall_login_password_l{font-size:14px;color:#b0b0b0;cursor:pointer;}
+.livehall_login_password_l:hover{text-decoration:underline;}
+.livehall_login_password_r{float:right;font-size:14px;color:#b0b0b0;cursor:pointer}
+
+/*登录右侧*/
+.livehall_login_right{overflow:hidden}
+.livehall_login_right p{padding-left:40px;font-size:14px;color:#585858;}
+.livehall_login_right ul{margin:24px 0 0 26px;}
+.livehall_login_right li{float:left;width:64px;height:64px;margin:0 15px;}
+/*.livehall_login_right a{display:block;width:64px;height:64px;border-radius:50%;behavior:url(../../js/pie/PIE.htc);background:url(../../../images/index/login_img.png)no-repeat;cursor:pointer}*/
+.livehall_login_right a{display:block;width:64px;height:64px;border-radius:50%;behavior:url(../../js/pie/PIE.htc);background:url(../../../images/liveHall/login_img.png)no-repeat;cursor:pointer}
+.livehall_login_right .livehall_login_weixin a{background-position:center top;}
+.livehall_login_right .livehall_login_qq a{background-position:center -65px;}
+.livehall_login_right .livehall_login_sina{display:none;}
+.livehall_login_right .livehall_login_sina a{background-position:center -130px;}
+
+.livehall_login_nav{height:62px;margin:0 40px 0 0;border-bottom:1px solid #edeaea;position:relative}
+.livehall_login_nav ul{height:37px;margin-top:26px;position:absolute;left:0;top:0}
+.livehall_login_nav li{float:left;width:110px;margin-right:30px;font-size:20px;color:#373737;line-height:36px;text-align:center;cursor:pointer;}
+.livehall_login_nav li.on{color:#ff7747;border-bottom:1px solid #ff7747;}
+.livehall_login_nav li:hover{color:#ff7747;}
+.livehall_login_tip{height:62px;margin-left:40px;line-height:58px;font-size:14px;color:#585858}
+.livehall_login_register{width:239px;height:46px;margin:0 0 40px 40px;font-size:18px;color:#fff;text-align:center;line-height:46px;background:#ff7747;border-radius:3px;cursor:pointer}
+.livehall_login_right li:hover{opacity:.8;}
+
+/*退出*/
+.livehall_tuichu_div{z-index:999;}
+.livehall_tuichu{width:390px;height:260px;margin:-160px 0 0 -235px;padding:30px 40px;background:#fff;position:fixed;top:50%;left:50%;z-index:999;}
+.livehall_tuichu_d1{font-size:20px;color:#373737;}
+.livehall_tuichu_d2{height:170px;line-height:170px;font-size:20px;color:#373737;text-align:center;}
+.livehall_tuichu_d3{width:260px;margin:0 auto;}
+.livehall_tuichu_d3 a{display:block;width:118px;height:44px;line-height:44px;font-size:18px;text-align:center;border-radius:2px;behavior:url(../../js/pie/PIE.htc);cursor:pointer}
+.livehall_tuichu_d3 .livehall_tuichu_d3a1{float:left;color:#fff;border:1px solid #ff7747;background:#ff7747;}
+.livehall_tuichu_d3 .livehall_tuichu_d3a2{float:right;color:#8d8d8d;border:1px solid #e5e5e5;background:#fff;}
+
+/*注册*/
+.register{width:738px;background:#fff;position:fixed;left:50%;top:50%;margin:-280px 0 0 -369px;z-index:999;padding-bottom:24px;}
+.register_game{width:738px;background:#fff;position:fixed;left:50%;top:50%;margin:-362px 0 0 -369px;z-index:999;padding-bottom:24px;}
+.register_nav{height:62px;margin:0 40px;border-bottom:1px solid #edeaea;position:relative}
+.register_nav ul{height:37px;margin-top:26px;position:absolute;left:0;top:0}
+.register_nav li{float:left;width:110px;margin-right:30px;font-size:20px;color:#373737;line-height:36px;text-align:center}
+.register_phone_left{float:left;width:358px;height:442px;*height:460px;margin:26px 0;padding-left:40px;border-right:1px solid #edeaea;}
+.register_phone_left_game{float:left;width:358px;height:576px;*height:460px;margin:26px 0;padding-left:40px;border-right:1px solid #edeaea;}
+.register_phone_num{margin:4px 0 20px 0;overflow:hidden}
+.register_phone_number{float:left;width:178px;height:46px;margin-right:10px;position:relative;}
+.register_phone_number input{width:176px;*width:166px;height:44px;border:1px solid #dcdcdc;color:#7c7c7c;line-height:44px;text-indent:11px;font-size:14px;*margin:-1px 0 0 -11px;}
+.register_count{float:left;width:118px;height:44px;border:1px solid #dcdcdc;font-size:14px;color:#b0b0b0;line-height:44px;text-align:center;background:#e9e9e9;cursor:pointer;}
+.register_count_success{float:left;width:118px;height:44px;border:1px solid #c6ebbe;font-size:14px;color:#57c446;line-height:44px;text-align:center;background:#d5f1cf;cursor:pointer;}
+.register_account{width:308px;height:46px;margin-bottom:20px;}
+.register_account input{width:306px;height:44px;line-height:44px;border:1px solid #dcdcdc;font-size:14px;color:#7c7c7c;text-indent:11px;*margin:-1px 0 0 -11px;}
+.register_error_icon{display:none;width:28px;height:41px;position:absolute;top:1px;right:4px;background:#fff url(../../../images/others/register/register_error.png)no-repeat left center;cursor:pointer;}
+.error{position:relative;}
+.error .register_error_icon{display:block;}
+.register_gender{margin-bottom:20px;font-size:14px;color:#7c7c7c;line-height:14px;}
+.register_gender_radio{display:inline-block;width:11px;height:13px;background:url(../../../images/others/register/radio.png)no-repeat -45px 2px;*padding-top:2px;}
+.register_gender_radio.on{background-position:0 2px}
+.register_opacity{opacity: 0;-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";filter: alpha(opacity=0)}
+.register_gender_radio1{margin:2px 7px 0 5px}
+.register_gender_radio2{margin:2px 9px 0 14px}
+.register_geetest{margin-bottom:20px}
+.register_button1{width:308px;height:46px;font-size:18px;color:#fff;text-align:center;line-height:46px;background:rgba(255,119,71,.5);cursor:pointer;border-radius:3px;margin:10px 0;}
+.register_button2{width:308px;height:46px;font-size:18px;color:#fff;text-align:center;line-height:46px;background:rgba(255,119,71,.8);cursor:pointer;border-radius:3px;margin:10px 0;}
+.register_agree{padding-top:13px;color:#b0b0b0;font-size:14px}
+.register_agree a{color:#5b9dde;font-size:14px}
+.register_not_checked{display:block;float:left;width:10px;height:10px;margin:1px 6px 0 0;border:1px solid #b0b0b0;*padding-top:3px;}
+.register_check{width:12px;height:12px;border:0;background:url(../../../images/others/register/select.png)no-repeat}
+.register_agree_text{float:left;line-height:14px;}
+.register_right{float:left;width:290px;padding:0 0 0 40px;overflow:hidden}
+.register_right_tip{height:62px;line-height:58px;font-size:14px;color:#585858}
+.register_vip_price{position:absolute;top:538px;left:520px;font-size: 14px;color: #585858;}
+.register_vip_price_game{position:absolute;top:670px;left:520px;font-size: 14px;color: #585858;}
+.register_register{width:239px;height:46px;font-size:18px;color:#fff;text-align:center;line-height:46px;background:#ff7747;border-radius:3px;cursor:pointer}
+.register_other_use{height:66px;line-height:66px;padding-top:30px;color:#585858;font-size:14px}
+.register_id{height:64px;padding-left:2px}
+.register_id li{float:left;width:64px;height:64px;cursor:pointer}
+.register_qq{margin-right:30px;background:url(../../../images/liveHall/login_img.png)no-repeat 0 -65px}
+.register_qq:hover{opacity:.8;}
+.register_sina{margin-right:30px;background:url(../../../images/liveHall/login_img.png)no-repeat 0 -131px}
+.register_sina:hover{opacity:.8;}
+.register_wechat{background:url(../../../images/liveHall/login_img.png)no-repeat 0 0}
+.register_wechat:hover{opacity:.8;}
+.register_lehai_left{float:left;width:358px;height:372px;margin:26px 0;padding-top:4px;padding-left:40px;border-right:1px solid #edeaea;}
+.account_phone_right_success{color:#57c446;border:1px solid #c6ebbe;background:#d5f1cf;cursor:pointer}
+
+/*尾部*/
+.liveHall_foot{}
+.footer{margin:0 auto;padding:13px 0 26px;width:1045px;border-top:1px solid #d9dadc;}
+.footer2{color:#8e8e8e;line-height:22px;text-align: center;}
+.footer2 a{color:#8e8e8e;padding-left:8px;}
+.footer2 a:hover{color:#f04489; text-decoration:underline;}
+.footer2 span{padding: 0 8px;}
+.footer3{line-height: 24px;overflow: hidden;width: 240px;margin: 0 auto;}
+.footer3_left{width: 70px;float: left;padding: 0 10px 0 0;font-size: 14px;color: #979797;}
+.footer3_right{width:130px;float: left;}
+.footer3_right a{cursor: pointer;color:#8e8e8e;}
+.footer4_bottom{width:1200px;font-size: 12px;color: #979797;text-align: center;}
+.footer_m2_r_line{margin: 0 10px;color: #c5c5c5;}
+/*加文网文底部*/
+.foot_www{overflow: hidden;padding-bottom: 20px;}
+.foot_www_nei{margin:0 auto;;width:1316px;}
+.foot_www a{width:106px;height:48px;border:1px solid #ccc;display:block;margin:0 8px;float:left;background-image:url("../../../images/liveHall/www/www.png");background-repeat:no-repeat;}
+.foot_www1{background-position:0 0}
+.foot_www .foot_www2{background:#fff url("../../../images/liveHall/www/wj110.jpg")center no-repeat;background-size: 110%;}
+.foot_www3{background-position:-240px 0}
+.foot_www4{background-position:-360px 0}
+.foot_www5{background-position:-480px 0}
+.foot_www6{background-position:-600px 0}
+.foot_www7{background-position:-720px 0}
+.foot_www8{background-position:-840px 0}
+.foot_www9{background-position:-945px 8px}
+.foot_www10{background-position:-1080px 0}
+#___szfw_logo___{border:0;padding-top:4px;}
+/*.foot_www11{background: url("../../../images/www/11.png")center no-repeat;}*/
+/* 滚动条样式 */
+/*定义滚动条宽高及背景，宽高分别对应横竖滚动条的尺寸及圆角*/
+.hrScrollbar1::-webkit-scrollbar{
+     width: 8px;
+     height: 8px;
+     border-radius: 10px;
+     background-color: #a0a0a0;
+ }
+.hrScrollbar2::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+    border-radius: 10px;
+    background-color: #a0a0a0;
+}
+/*定义滚动条的轨道，内阴影及圆角*/
+.hrScrollbar1::-webkit-scrollbar-track{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.25);
+    border-radius: 10px;
+    background-color: #cccccc;
+}
+/*定义滑块，内阴影及圆角*/
+.hrScrollbar1::-webkit-scrollbar-thumb{
+    /*width: 10px;*/
+    height: 20px;
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.5);
+    background-color: #bbbbbb;
+}
+
+.liveHall_head_infor{float:left;width:36px;height:36px;border:2px solid #ffbaa2;border-radius:50%;}
+.liveHall_head_infor img{width:36px;height:36px;border-radius:50%;}
+.liveHall_head_infor_arrow{width:9px;height:5px;margin:19px 0 0 5px;background:url("../../../images/liveHall/top.png") no-repeat;background-position:0 -25px;float:left;}
+.livehall_zbxx_nei{width:196px;background:#f8f8f8;z-index:1;overflow:hidden;-webkit-box-shadow:-2px 4px 6px rgba(0,0,0,.6);box-shadow:-2px 4px 6px rgba(0,0,0,.6);position:absolute;left:-83px;top:40px;display:none;}
+.liveHall_head_infor_wai:hover .livehall_zbxx_nei{display:block;}
+.livehall_zbxx_nei_t{height:75px;padding:20px 0 0 14px;background:#f8f8f8;overflow: hidden;}
+.livehall_zbxx_t_left img{width:50px;height:50px;margin-right:10px;border:none;border-radius:50%;display:block;float:left;}
+.livehall_zbxx_t_right{}
+.livehall_zbxx_username{margin-bottom:6px;overflow:hidden;}
+.livehall_zbxx_username span{display:inline-block;width:78px;height:22px;margin:0;line-height:22px;font-size:12px;color:#000;white-space:nowrap;word-wrap:normal;text-overflow:ellipsis;overflow:hidden;float: left;}
+.livehall_zbxx_edit{width:34px;font-size:12px;color:#bababa;line-height:18px;text-align:center;cursor:pointer;display: block;float: left;}
+.livehall_zbxx_username input{float:left;width:74px;height:16px;margin-right:4px;line-height:16px;font-size:12px;color:#333;text-indent:4px;border:1px solid #ccc;outline:0;}
+.livehall_zbxx_keep{width: 34px;height:16px;line-height:14px;font-size:12px;color:#bababa;text-align:center;border:1px solid #bababa;-webkit-border-radius:2px;border-radius:2px;cursor:pointer;display: block;float: left;}
+.livehall_zbxx_p{color:#959595;clear:both;line-height:24px;}
+.livehall_zbxx_nei_b{padding:6px 0 14px 0;background:#fff;overflow:hidden;}
+.livehall_zbxx_nei_b a{display:block;width:100%;height:28px;line-height:28px;text-indent:30px;font-size:12px;color:#000;cursor:pointer;}
+.livehall_zbxx_nei_b a:hover{background:#e9e9e9;}
+/*发现nav*/
+.livehall_head_find{position: relative;float: left;}
+.livehall_head_find_a{color:#333;font-size:18px;line-height:73px;height:73px;display: block; }
+.livehall_head_find:hover .livehall_head_find_a{color:#ff7747;}
+.livehall_head_find_a:hover+.livehall_head_find_nei{display: block;}
+.livehall_head_find_nei{position:absolute;top:60px;left:-32px;width:100px;padding-top:5px;background:rgba(255,255,255,0.9);border:1px solid #e2e3e4;z-index:1;border-radius: 5px;display: none; }
+.livehall_head_find_a:hover+.livehall_head_find_nei{display: block;}
+.livehall_head_find_nei:hover{display: block;}
+.livehall_head_find_nei a{color:#333;font-size:14px;width:100px;height:30px;line-height:30px;display: block;text-align: center;clear: both;margin:0 auto;}
+.livehall_head_find_nei a:hover{color:#ff7747;}
+
+.liveHall_search{float:right;height:28px;width:243px;border-radius:2px;overflow:hidden;}
+.liveHall_search_left{float:left;width:207px;height:26px;outline:none;border:1px solid #eaeaea;border-right:0;display:block;color:#333;text-indent:11px;font-size:14px;}
+.liveHall_search_right{float:left;width:35px;height:28px;background:rgba(255,119,71,0.5) url("../../../images/liveHall/top.png") 8px 4px no-repeat;cursor:pointer;}
+.liveHall_head_right{float:right;}
+.liveHall_head_show{float:right;width:78px;height:28px;margin:23px 0 0 10px;cursor:pointer;background:#ff7747;color:#fff;font-size:14px;border-radius:3px;line-height:28px;text-align:center;}
+.liveHall_head_infor_wai{float:right;margin-top:17px;height:56px;cursor:pointer;position:relative;}
+/*手机登录提示修改密码*/
+.liveHall_change_password{width:300px;height:27px;padding-top:6px;position:absolute;left:-130px;top:43px;background:url("../../../images/liveHall/change_password.png") no-repeat;overflow:hidden;z-index:1;}
+.liveHall_change_password a{font-size:14px;color:#333;line-height: 26px;padding-left:39px;height: 26px;width: 260px;display: block;cursor: pointer; }
+
+/*未登录状态*/
+.livehall_no_land a{margin-top:28px;cursor: pointer;display:block;float:left;}
+.livehall_no_land a:hover{text-decoration:underline;}
+.livehall_no_land span{margin-left:6px;margin-right:6px;margin-top:27px;display:block;float:left;color:#ccc;}
+
+/*登录的状态*/
+.livehall_hongZuan_img img{ margin:-2px 2px 0 12px;}
+.livehall_hongPiao_img img{ margin:-2px 3px 0 0;}
+.livehall_hongPiao{margin-right:12px;max-width:68px;overflow:hidden;}
+.livehall_hongZuan{margin-right:12px;max-width:68px;overflow:hidden;}
+.livehall_vLine{float:left;display:block;margin:28px 6px 0 6px;height:14px;overflow:hidden;color:#ccc;}
+.livehall_anchor_info{float:right;height:46px;margin-top:12px;padding:7px 12px 0 16px;position:relative;color:#959595;cursor:pointer;z-index:21;}
+.livehall_anchor_info img{display:block;float:left;margin-right:4px;border-radius:50%;border:2px solid rgba(255,119,71,0.5);behavior:url(../../js/pie/PIE.htc);position:relative;}
+.livehall_land span{display:block;float:left;color:#969696;margin-top:28px;}
+.livehall_anchor_info .livehall_land_jiantou{margin-top:14px;width:9px;height:5px;background:url(../../../images/liveHall/icon1.png)no-repeat right top;}
+.livehall_hongren_app{float:left;width:50px;height:26px;line-height:26px;margin-top:24px;margin-right:12px;padding-left:22px;color:#969696;background:url(../../../images/liveHall/icon1.png)no-repeat -33px -10px;}
+/*.livehall_land .livehall_my_broad{float:left;width:78px;height:24px;margin-top:24px;font-size:12px;color:#fff;text-align:center;line-height:24px;border-radius:4px;behavior:url(../../js/pie/PIE.htc);background:#ff7747;cursor:pointer;}*/
+/*.livehall_land .livehall_my_broad:hover{background:#ff642d}*/
+.livehall_land .livehall_my_broad{float:right;width:78px;height:28px;margin:23px 0 0 10px;cursor:pointer;background:#ff7747;color:#fff;font-size:14px;border-radius:3px;line-height:28px;text-align:center;}
+
+.livehall_anchor_info:hover .livehall_zbxx_nei{display:block;}
+/*主播信息*/
+.livehall_zbxx_nei{display:none;width:196px;/*padding:20px 14px 0 14px;*/background:#f8f8f8;z-index:20;overflow:hidden;-webkit-box-shadow:-2px 4px 6px rgba(0,0,0,.6);box-shadow:-2px 4px 6px rgba(0,0,0,.6);behavior:url(../../js/pie/PIE.htc);position:absolute;left:-70px;top:39px;}
+/*.livehall_zbxx_nei span{display:inline-block;width:120px;height:24px;margin:0;line-height:24px;font-size:12px;color:#000;text-overflow:clip;white-space:nowrap;word-wrap:normal;overflow:hidden}*/
+.livehall_zbxx_t_left img{width:50px;height:50px;margin-right:10px;border:none}
+.livehall_zbxx_username{margin-bottom:6px;overflow:hidden}
+.livehall_zbxx_username span{display:inline-block;width:78px;height:22px;margin:0;line-height:22px;font-size:12px;color:#000;white-space:nowrap;word-wrap:normal;text-overflow: ellipsis;overflow:hidden}
+.livehall_zbxx_nei_t{height:75px;padding:20px 0 0 14px;background:#f8f8f8;overflow:hidden}
+.livehall_zbxx_t_right img{margin-right:8px;-webkit-border-radius:0;border-radius:0;border:none;}
+.livehall_tuichu_btn{display:inline-block;margin-top:6px;color:#8a8989;}
+.livehall_tuichu_btn:hover{color:#ff7747;}
+.livehall_zbxx_nei_b{padding:6px 0 14px 0;background:#fff;overflow:hidden}
+.livehall_zbxx_nei_b a{display:block;width:100%;height:28px;line-height:28px;text-indent:30px;font-size:12px;color:#000;cursor:pointer;}
+.livehall_zbxx_nei_b a:hover,.livehall_zbxx_on{background:#e9e9e9;}
+/*编辑*/
+.livehall_zbxx_username input{float:left;width:74px;height:16px;margin-right:4px;line-height:16px;font-size:12px;color:#333;text-indent:4px;border:1px solid #ccc;outline:none;}
+.livehall_zbxx_edit{width:34px;font-size:12px;color:#bababa;line-height:18px;text-align:center;cursor:pointer;}
+/*保存按钮*/
+.livehall_zbxx_keep{width:34px;height:16px;line-height:14px;font-size:12px;color:#bababa;text-align:center;border:1px solid #bababa;-webkit-border-radius:2px;border-radius:2px;cursor:pointer;}
+
+
+/*余额不足弹出框*/
+.yue{ width:350px; z-index: 9999; position:fixed; top:50%; left:50%; margin-left:-175px; margin-top:-55px;overflow:hidden;border-radius:4px;  box-shadow:0 0 4px rgba(0,0,0,0.2); }
+.yue_d{ background:#fff; width:346px; padding-bottom:18px; background:#fff; margin:2px 0 0 2px; border-radius:4px; position:relative; z-index:4;}
+.yue_d1{ padding:10px 0 0 20px; font-size:14px; color:#000;}
+.yue_d2{ padding:10px 26px 10px 26px; color:#666666; text-indent:25px; line-height:22px;}
+.yue_d3{ text-align:center;cursor:pointer;}
+.yue_d3a1{ display:inline-block; width:60px; height:26px; background:#f06099; line-height:26px; text-align:center; color:#fff; border-radius:2px; margin:10px 10px 0;}
+.yue_d3a2{ display:inline-block; width:60px; height:26px; background:#f3f1f4; line-height:26px; text-align:center; color:#646263; border-radius:2px; margin-top:10px;margin-left: 10px;cursor:pointer;}
+.yue_d4{ width:8px; height:8px; position:absolute; top:13px; right:16px;}
+.yue_d4 a{ font-size:20px; font-weight:bold;cursor:pointer;}
+.bg{background: rgba(0,0,0,.6);  width: 100%;  height: 100%;  position: fixed;  left: 0;  top: 0;  z-index: 998;}
+
+
+
+/* 隐藏娱乐 */
+/*.liveHall_head_ul li:nth-child(3){display: none}*/
+.livehall_login_qq{display: none}
