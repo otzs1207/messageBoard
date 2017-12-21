@@ -1,0 +1,146 @@
+<html ng-app="xsWeb" ng-cloak>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="renderer" content="webkit" />
+    <title>OTZS-1207</title>
+    <meta name="description" content="OTZS-1207 AI社区！" />
+    <meta name="keywords" content="AI社区！" />
+    <LINK href="favicon.ico" rel="shortcut icon">
+
+    <!-- build:mybase -->
+    <!-- <base href="/"> -->
+    <!-- endbuild -->
+
+    <!--[if lt IE 10]>
+        <script>
+            window.location.href="/traditional/html/upgrade_prompt.html";
+        </script>
+    <![endif]-->
+
+    <!--[if !IE]><!-->
+    <script>
+        if(!window.localStorage){
+            window.location.href="/traditional/html/upgrade_prompt.html";
+        }
+    </script>
+    <!--<![endif]-->
+
+    <link rel="stylesheet" href="item/common/css/ng-scrollbar.min.css"/>
+
+    <!--通用css-->
+    <!-- build:css css/main.css -->
+
+    <!--大厅页CSS-->
+    <link rel="stylesheet" href="css/skel.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style-wide.css" />
+    <!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+    <!--房间css-->
+
+    <!--个人信息-->
+
+    <!-- others -->
+
+    <!--商城-->
+
+    <!--个人空间-->
+
+    <!--排行-->
+
+    <!-- endbuild -->
+
+    <!-- build:css css/indexMax.css media="(max-width:1640px)"-->
+    <!-- endbuild -->
+
+    <!-- build:css css/indexMin.css media="(min-width:1640px)"-->
+    <!-- endbuild -->
+    <!--框架依赖包JS文件-->
+    <!-- build:jsyinyong/lib.js -->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <!--<script src="bower_components/jquery/dist/jquery.lazyload.js"></script>-->
+    <script src="bower_components/jquery.easing/js/jquery.easing.min.js"></script>
+    <script src="bower_components/angular/angular.min.js"></script>
+    <!--<script src="bower_components/angular/me-lazyload.js"></script>   -->                      <!--//angular懒加载的插件-->
+    <script src="bower_components/angular-route/angular-route.min.js"></script>
+    <script src="bower_components/angular-touch/angular-touch.min.js"></script>
+    <script src="bower_components/ui-router/release/angular-ui-router.min.js"></script>
+    <script src="bower_components/angular-sanitize/angular-sanitize.min.js"></script>
+    <!--<script src="bower_components/strophe/strophe.min.js"></script>-->
+    <script src="bower_components/ng-img-crop/compile/minified/ng-img-crop.js"></script>
+    <script src="lib/ui-bootstrap-tpls-2.1.4.min.js"></script>
+    <script src="bower_components/jquery/dist/jquery.cityselect.js"></script>
+    <script src="bower_components/velocity/velocity.min.js"></script>
+    <script src="lib/ng-scrollbar.min.js"></script>
+    <script src="lib/pikaday.min.js"></script>
+    <!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+    <script src="js/jquery-1.7.2.js"></script>
+    <script src="js/jquery.dropotron.min.js"></script>
+    <script src="js/jquery.scrollgress.min.js"></script>
+    <script src="js/skel.min.js"></script>
+    <script src="js/skel-layers.min.js"></script>
+    <!-- endbuild -->
+
+    <!--通用js文件引用-->
+
+
+    <!-- build:js js/main.js -->
+    <script src="item/modules.js"></script>
+    <script src="item/config.js"></script>
+    <script src="item/app.js"></script>
+    <script src="item/const.js"></script>
+    <script src="item/router.js"></script>
+    <script src="item/indexCtrl.js"></script>
+
+    <!--公用common js文件引用-->
+
+    <!--头部相关-->
+    <script src="item/common/service/baseHeadSrv.js"></script>
+    <script src="item/common/service/notificationSrv.js"></script>
+    <script src="item/common/service/paraCheckSrv.js"></script>
+    <script src="item/common/service/uploadSrv.js"></script>
+    <script src="item/common/service/webSocketSrv.js"></script>
+
+    <!--注册与登录-->
+
+    <!--首页controller-->
+    <script src="js/init.js"></script>
+    <script src="item/liveHall/controller/liveHallCtrl.js"></script>
+    <script src="item/liveHall/service/liveHallSrv.js"></script>
+
+    <!--房间game-->
+    <!--<script src="item/game/js/game.min.js"></script>-->
+
+    <!--房间controller-->
+
+    <!--个人信息-->
+
+    <!-- others -->
+
+    <!--商城-->
+
+    <!--排行-->
+
+    <!--个人空间-->
+
+    <!-- endbuild -->
+
+    <!-- build:mybase -->
+    <!--<script src="js/partials.js"></script>-->
+    <!-- endbuild -->
+
+
+</head>
+
+<body>
+    <div ng-controller="xsWeb.indexCtrl as indexCtrl">
+        <!-- 页面容器-->
+        <div ui-view></div>
+        <!--系统弹框提示 -->
+    </div>
+</body>
+</html>
+
+
+
+
