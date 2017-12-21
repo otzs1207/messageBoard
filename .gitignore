@@ -1,0 +1,4 @@
+.idea/
+node_modules/
+app/bower_components/angular-ui-bootstrap/
+app/bower_components/ui.bootstrap/
