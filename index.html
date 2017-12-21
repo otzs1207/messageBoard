@@ -35,7 +35,11 @@
 						}else{
 							this.myData.splice(n,1);
 						}
-					}
+					},
+					QrCode:function () {
+//					    var url = "QrCode.html";
+						window.open("/messageBoard/messageBoard/QrCode.html",'_blank');
+                    }
 				}
 			});
 		}
@@ -55,6 +59,7 @@
 			<div class="form-group">
 				<input type="button" value="添加" class="btn btn-primary" v-on:click="add()">
 				<input type="button" value="重置" class="btn btn-danger">
+				<input type="button" value="生成二维码" class="btn btn-primary" v-on:click="QrCode()">
 			</div>
 		</form>
 		<hr>
