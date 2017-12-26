@@ -1,4 +1,4 @@
-@import url(http://fonts.useso.com/css?family=Source+Sans+Pro:200,300);
+/*@import url(http://fonts.useso.com/css?family=Source+Sans+Pro:200,300);*/
 * {
   box-sizing: border-box;
   margin: 0;
@@ -36,7 +36,7 @@ body :-ms-input-placeholder {
   color: white;
   font-weight: 300;
 }
-.wrapper {
+.wrapper_signUp {
   background: #50a3a2;
   background: -webkit-linear-gradient(top left, #50a3a2 0%, #53e3a6 100%);
   background: linear-gradient(to bottom right, #50a3a2 0%, #53e3a6 100%);
@@ -50,20 +50,34 @@ body :-ms-input-placeholder {
   overflow: hidden;
 
 }
+.container_signUp span{
+  width: 34px;
+  height: 34px;
+  float: right;
+  display: inline-block;
+  z-index: 2;
+}
+.container_signUp span:hover{
+  cursor: pointer;
+  transform: scale(1.5);
+}
+.wrapper_signUp_icon_close:hover i {
+  opacity: 0.8;
+}
 
-.wrapper.form-success .container h1 {
+.wrapper_signUp.form-success .container_signUp h1 {
   -webkit-transform: translateY(85px);
       -ms-transform: translateY(85px);
           transform: translateY(85px);
 }
-.container {
+.container_signUp {
   max-width: 600px;
   margin: 0 auto;
   padding: 80px 0;
   height: 400px;
   text-align: center;
 }
-.container h1 {
+.container_signUp h1 {
   font-size: 40px;
   -webkit-transition-duration: 1s;
           transition-duration: 1s;
@@ -71,12 +85,12 @@ body :-ms-input-placeholder {
           transition-timing-function: ease-in-put;
   font-weight: 200;
 }
-form {
+.form_signUp {
   padding: 20px 0;
   position: relative;
   z-index: 2;
 }
-form input {
+.form_signUp .form_signUp_input_text {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
@@ -95,15 +109,15 @@ form input {
           transition-duration: 0.25s;
   font-weight: 300;
 }
-form input:hover {
+.form_signUp .form_signUp_input_text:hover {
   background-color: rgba(255, 255, 255, 0.4);
 }
-form input:focus {
+.form_signUp .form_signUp_input_text:focus {
   background-color: white;
   width: 300px;
   color: #53e3a6;
 }
-form button {
+.form_signUp .form_signUp_button {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
@@ -119,10 +133,10 @@ form button {
   -webkit-transition-duration: 0.25s;
           transition-duration: 0.25s;
 }
-form button:hover {
+.form_signUp .form_signUp_button:hover {
   background-color: #f5f7f9;
 }
-.bg-bubbles {
+.bg-bubbles_signUp {
   position: absolute;
   top: 0;
   left: 0;
@@ -130,7 +144,7 @@ form button:hover {
   height: 100%;
   z-index: 1;
 }
-.bg-bubbles li {
+.bg-bubbles_signUp li {
   position: absolute;
   list-style: none;
   display: block;
@@ -143,10 +157,10 @@ form button:hover {
   -webkit-transition-timing-function: linear;
   transition-timing-function: linear;
 }
-.bg-bubbles li:nth-child(1) {
+.bg-bubbles_signUp li:nth-child(1) {
   left: 10%;
 }
-.bg-bubbles li:nth-child(2) {
+.bg-bubbles_signUp li:nth-child(2) {
   left: 20%;
   width: 80px;
   height: 80px;
@@ -155,12 +169,12 @@ form button:hover {
   -webkit-animation-duration: 17s;
           animation-duration: 17s;
 }
-.bg-bubbles li:nth-child(3) {
+.bg-bubbles_signUp li:nth-child(3) {
   left: 25%;
   -webkit-animation-delay: 4s;
           animation-delay: 4s;
 }
-.bg-bubbles li:nth-child(4) {
+.bg-bubbles_signUp li:nth-child(4) {
   left: 40%;
   width: 60px;
   height: 60px;
@@ -168,10 +182,10 @@ form button:hover {
           animation-duration: 22s;
   background-color: rgba(255, 255, 255, 0.25);
 }
-.bg-bubbles li:nth-child(5) {
+.bg-bubbles_signUp li:nth-child(5) {
   left: 70%;
 }
-.bg-bubbles li:nth-child(6) {
+.bg-bubbles_signUp li:nth-child(6) {
   left: 80%;
   width: 120px;
   height: 120px;
@@ -179,14 +193,14 @@ form button:hover {
           animation-delay: 3s;
   background-color: rgba(255, 255, 255, 0.2);
 }
-.bg-bubbles li:nth-child(7) {
+.bg-bubbles_signUp li:nth-child(7) {
   left: 32%;
   width: 160px;
   height: 160px;
   -webkit-animation-delay: 7s;
           animation-delay: 7s;
 }
-.bg-bubbles li:nth-child(8) {
+.bg-bubbles_signUp li:nth-child(8) {
   left: 55%;
   width: 20px;
   height: 20px;
@@ -195,7 +209,7 @@ form button:hover {
   -webkit-animation-duration: 40s;
           animation-duration: 40s;
 }
-.bg-bubbles li:nth-child(9) {
+.bg-bubbles_signUp li:nth-child(9) {
   left: 25%;
   width: 10px;
   height: 10px;
@@ -205,7 +219,7 @@ form button:hover {
           animation-duration: 40s;
   background-color: rgba(255, 255, 255, 0.3);
 }
-.bg-bubbles li:nth-child(10) {
+.bg-bubbles_signUp li:nth-child(10) {
   left: 90%;
   width: 160px;
   height: 160px;

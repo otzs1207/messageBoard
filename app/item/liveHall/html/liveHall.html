@@ -26,21 +26,40 @@
 			<!--</ul>-->
 		<!--</nav>-->
 	<!--</div>-->
-	<!--<div class="container">-->
-	<!--<h1>Welcome</h1>-->
+	<div class="htmleaf-container" ng-show="liveHallCtrl.loginShow">
+		<div class="wrapper_signUp">
+			<div class="container_signUp">
+				<span class="wrapper_signUp_icon_close" ng-click="liveHallCtrl.funcGetLoginUpClose()"><i class="icono-crossCircle"></i></span>
 
-	<!--<form class="form">-->
-	<!--<input type="text" placeholder="Username">-->
-	<!--<input type="password" placeholder="Password">-->
-	<!--<button type="submit" id="login-button">Login</button>-->
-	<!--</form>-->
-	<!--</div>-->
+				<h1>Welcome</h1>
+
+				<div class="form_signUp">
+					<input type="text" class="form_signUp_input_text" placeholder="Username">
+					<input type="password" class="form_signUp_input_text" placeholder="Password">
+					<button type="submit" class="form_signUp_button" id="login-button">Login</button>
+				</div>
+			</div>
+
+			<ul class="bg-bubbles_signUp">
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+		</div>
+	</div>
 	<!-- Banner -->
 	<div id="banner">
 		<h2>OTZS-1207</h2>
 		<!--<p>Another fine responsive site template freebie by bootstrap.cn.</p>-->
 		<ul class="actions">
-			<li><a class="button special">Sign Up</a></li>
+			<li><a class="button special" ng-click="liveHallCtrl.funcGetLoginUp()">Sign Up</a></li>
 			<li><a href="#" class="button">Learn More</a></li>
 		</ul>
 	</div>
