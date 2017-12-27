@@ -50,12 +50,15 @@ body :-ms-input-placeholder {
   overflow: hidden;
 
 }
+.wrapper_signUp_icon_close{
+  position: relative;
+  z-index: 3;
+}
 .container_signUp span{
   width: 34px;
   height: 34px;
   float: right;
   display: inline-block;
-  z-index: 2;
 }
 .container_signUp span:hover{
   cursor: pointer;

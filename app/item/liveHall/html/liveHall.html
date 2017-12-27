@@ -34,9 +34,9 @@
 				<h1>Welcome</h1>
 
 				<div class="form_signUp">
-					<input type="text" class="form_signUp_input_text" placeholder="Username">
-					<input type="password" class="form_signUp_input_text" placeholder="Password">
-					<button type="submit" class="form_signUp_button" id="login-button">Login</button>
+					<input type="text" class="form_signUp_input_text" ng-model="liveHallCtrl.login_v.loginMobile" placeholder="Phone" maxlength="11">
+					<input type="password" class="form_signUp_input_text" ng-model="liveHallCtrl.login_v.loginPassword" placeholder="Password">
+					<button type="submit" class="form_signUp_button" id="login-button" ng-click="liveHallCtrl.login_v.funcRegLoginAction()">Login</button>
 				</div>
 			</div>
 
